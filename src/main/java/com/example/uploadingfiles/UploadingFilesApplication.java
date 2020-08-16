@@ -9,6 +9,9 @@ import org.springframework.context.annotation.Bean;
 import com.example.uploadingfiles.storage.StorageProperties;
 import com.example.uploadingfiles.storage.StorageService;
 
+// https://spring.io/guides/gs/uploading-files/
+// https://github.com/spring-guides/gs-uploading-files
+
 @SpringBootApplication
 @EnableConfigurationProperties(StorageProperties.class)
 public class UploadingFilesApplication {
