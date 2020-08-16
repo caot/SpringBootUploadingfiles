@@ -1,4 +1,9 @@
 HELP.md
+
+### Prepending an exclamation mark(!) to a pattern negates it. If a file matches a pattern,
+### but also matches a negating pattern defined later in the file, it will not be ignored.
+
+.gradle/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
